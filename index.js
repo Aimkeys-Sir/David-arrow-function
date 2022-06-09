@@ -15,7 +15,7 @@ function superbowl(record) {
     let result;
     //we iterate over the record and find the item with a result "W"
     for (entry of record) {
-        if (item.result === "W") {
+        if (entry.result === "W") {
             result = entry;
             break;
         }
